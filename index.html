@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geo-labels</title>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=a284b8f7-b0e9-40fe-990e-b560cf3ba374&lang=ru_RU" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+<div id="popup" class="popup">
+    <div class="top_popup">
+        <span id="top_popup" class="review_address"></span>
+        <div id="close_btn">x</div>
+    </div>
+    <div class="reviews_container">
+        <span id="empty_message">Отзывов пока нет...</span>
+        <ul class="review_list" id="review_list"></ul>
+    </div>
+    <div class="new_review">
+        <div class="review_label">ВАШ ОТЗЫВ</div>
+        <input class="review_item review_item_input" placeholder="Ваше имя" type="text" id="reviewer_name">
+        <input class="review_item review_item_input" placeholder="Укажите место" type="text" id="place">
+        <textarea class="review_item review_item_textarea" rows="4" placeholder="Поделитесь впечатлениями" id="review_text">
+            </textarea>
+        <button class="button" id="btn">Добавить</button>
+    </div>
+</div>
+<div id="map"></div>
+<script src="main.js"></script>
+</body>
+</html>

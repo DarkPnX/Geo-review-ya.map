@@ -1,0 +1,174 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.popup {
+    font-size: 12px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    height: 530px;
+    width: 380px;
+    background-color: #fff;
+    z-index: 1000;
+    border-radius: 10px;
+    display: none;
+}
+
+.top_popup {
+    font-size: 12px;
+    font-weight: 300;
+    height: 44px;
+    width: 100%;
+    background-color: #ff8563;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#close_btn{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.reviews_container {
+    color: #4f4f4f;
+    font-size: 16px;
+    margin: 15px 10px 15px 15px;
+    height: 170px;
+    overflow-y: auto;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.username {
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.place, .date {
+    color: #4f4f4f;
+    font-weight: 400;
+}
+
+.review_text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.new_review {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.review_label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ff8563;
+}
+
+.review_item {
+    padding: 5px 8px;
+    margin-top: 15px;
+    border: 1px solid #c4c4c4;
+    border-radius: 12px;
+    font-size: 15px;
+    outline: none;
+    width: 100%;
+}
+
+.review_item_input {
+    height: 32px;
+}
+
+.review_item_textarea {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.button {
+    cursor: pointer;
+    width: 87px;
+    height: 30px;
+    color: #ffffff;
+    border-radius: 8px;
+    background-color: #ff8663;
+    border: none;
+    float: right;
+    outline: none;
+    font-size: 12px;
+}
+
+.header_bal,
+.body_bal,
+.footer_bal
+{
+    font-size: 12px;
+}
+
+.body_bal {
+    max-height: 70px;
+    overflow-y: auto;
+}
+
+.footer_bal {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    color: #999;
+}
+
+.place_bal {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.address_bal {
+    color:blue;
+    text-decoration: underline;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
